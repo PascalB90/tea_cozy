@@ -10,6 +10,14 @@ body {
     text-align: center;
 }
 
+.l-heading {
+    margin: 5px 0 10px 0;
+}
+
+.xs-heading {
+    margin: 10px 0 5px 0;
+}
+
 /* Header & Brand */
 
 header {
@@ -124,12 +132,17 @@ nav a {
     flex-direction: column;
 }
 
+/* ----------------------------------- End Locations -------------------------------------*/
+/* ----------------------------------- Start Footer --------------------------------------*/
 
-
-
-.l-heading {
-    margin: 5px 0 10px 0;
+.footer-content {
+    height: 200px;
 }
-.xs-heading {
-    margin: 10px 0 5px 0;
+
+.copy {
+    text-align: left;
+    margin-left: 20px;
 }
+
+/* ----------------------------------- End Footer --------------------------------------*/
+
