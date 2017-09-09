@@ -1,0 +1,117 @@
+
+/* Main-Styles */
+
+body {
+    font-family:Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity:0.9;
+    text-align: center;
+}
+
+/* Header & Brand */
+
+header {
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.brand img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Navigation */
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:nth-child(3) {
+    margin-right: 10px;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/* Begin Main Section */
+/* -------------------------------------- End Mission ----------------------------------------*/
+
+.mission-content {
+    background-image: url("./../img/img-mission-background-header.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.mission-heading {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 1200px;
+}
+
+/* -------------------------------------- End Mission ----------------------------------------*/
+/* ---------------------------------- Start Featured Tea -------------------------------------*/
+
+.featured-tea-content {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.featured-tea-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured-tea-gallery figure {
+    margin: 10px;
+}
+
+.featured-tea-gallery img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------- End Featured Tea -------------------------------------*/
+/* ----------------------------------- Start Locations -------------------------------------*/
+
+.locations-content {
+    background-image: url("./../img/img-locations-background-footer.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+}
+
+
+
+.l-heading {
+    margin: 5px 0 10px 0;
+}
+.xs-heading {
+    margin: 10px 0 5px 0;
+}
