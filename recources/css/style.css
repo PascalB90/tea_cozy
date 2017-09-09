@@ -16,12 +16,12 @@ header {
     height: 69px;
     position: fixed;
     background-color: black;
-    display: flex;
-    z-index: 2;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
     border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
 }
 
 .brand img{
@@ -54,18 +54,16 @@ nav a {
     height: 700px;
     width: 1200px;
     margin: 0 auto;
-    position: relative;
-    top: 69px;
+    padding-top: 69px;
     display: flex;
     align-items: center;
-    margin-bottom: 150px;
 }
 
 .mission-heading {
+    width: 1200px;
     display: flex;
     flex-direction: column;
     background-color: black;
-    width: 1200px;
 }
 
 /* -------------------------------------- End Mission ----------------------------------------*/
@@ -73,10 +71,11 @@ nav a {
 
 .featured-tea-content {
     width: 1000px;
+    margin: 0 auto;
+    padding-top: 69px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
 }
 
 .featured-tea-gallery {
@@ -102,10 +101,29 @@ nav a {
     background-image: url("./../img/img-locations-background-footer.jpg");
     background-size: cover;
     background-position: 50% 25%;
-    margin: 0 auto;
     height: 500px;
     width: 1200px;
+    padding-top: 69px;
+    margin: 69px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.locations-adress {
+    display: flex;
+    justify-content: center;
+}
+
+.locations-adress article{
+    flex-basis: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    opacity: 1.0;
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
